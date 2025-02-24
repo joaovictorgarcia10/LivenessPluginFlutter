@@ -46,7 +46,7 @@ Missing class sun.net.spi.nameservice.NameServiceDescriptor (referenced from: or
 
 
 Temos preocupações sobre utilizar o ```-dontwarn``` para ignorar os erros encontrados no processo de minificação da APK. 
-O uso dessa flag pode implicar no mal comportamento em funcionalidades que façam o uso dessas classes.
+O uso dessa flag pode implicar no mal comportamento em funcionalidades que façam o uso dessas classes. Pode impactar o processo de segurança da APK e além disso não é a prática mais recomendada pela documentação.
 
 
 obs: A página [guia de solução de problemas do ProGuard](https://www.guardsquare.com/en/products/proguard/manual/troubleshooting) alerta:
